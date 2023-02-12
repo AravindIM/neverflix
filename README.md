@@ -33,7 +33,7 @@ rm -rf neverflix/
 ### Root install using curl
 
 ```bash
-curl -L "https://github.com/zypherfunk/neverflix/raw/branch/main/neverflix.sh" | sudo tee /usr/local/bin/neverflix
+curl -L "https://raw.githubusercontent.com/zypherfunk/neverflix/main/neverflix.sh" | sudo tee /usr/local/bin/neverflix
 sudo chmod +x /usr/local/bin/neverflix
 ```
 
@@ -41,7 +41,7 @@ sudo chmod +x /usr/local/bin/neverflix
 ### User install using curl
 
 ```bash
-curl -L "https://github.com/zypherfunk/neverflix/raw/branch/main/neverflix.sh" > ~/.local/bin/neverflix
+curl -L "https://raw.githubusercontent.com/zypherfunk/neverflix/main/neverflix.sh" > ~/.local/bin/neverflix
 chmod +x ~/.local/bin/neverflix
 ```
 
