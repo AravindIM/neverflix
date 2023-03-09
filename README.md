@@ -22,7 +22,7 @@ Neverflix is a simple bash script that will scrape the website 1337xxx.to, fetch
 ### Root install using git (You can use this if you're not sure which install method to pick)
 
 ```bash
-git clone https://github.com/zypherfunk/neverflix
+git clone https://github.com/AravindIM/neverflix
 cd neverflix
 sudo cp neverflix.sh /usr/local/bin/neverflix
 cd ..
@@ -33,7 +33,7 @@ rm -rf neverflix/
 ### Root install using curl
 
 ```bash
-curl -L "https://raw.githubusercontent.com/zypherfunk/neverflix/main/neverflix.sh" | sudo tee /usr/local/bin/neverflix
+curl -L "https://raw.githubusercontent.com/AravindIM/neverflix/main/neverflix.sh" | sudo tee /usr/local/bin/neverflix
 sudo chmod +x /usr/local/bin/neverflix
 ```
 
@@ -41,7 +41,7 @@ sudo chmod +x /usr/local/bin/neverflix
 ### User install using curl
 
 ```bash
-curl -L "https://raw.githubusercontent.com/zypherfunk/neverflix/main/neverflix.sh" > ~/.local/bin/neverflix
+curl -L "https://raw.githubusercontent.com/AravindIM/neverflix/main/neverflix.sh" > ~/.local/bin/neverflix
 chmod +x ~/.local/bin/neverflix
 ```
 
